@@ -1,0 +1,9 @@
+<p>task works!</p>
+
+<button (click)="test()">Click!</button>
+
+<br><br>
+
+<ng-container *ngIf="isEnable">
+    <span [appTransition]="'100px'" [color]="'yellow'" [transition]="'border-width 3s'">{{dateNow}}</span>
+</ng-container>

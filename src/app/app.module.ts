@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TransitionDirective } from './libs/directives/transition.directive';
+import { TaskComponent } from './components/task/task.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TransitionDirective,
+    TaskComponent
   ],
   imports: [
     BrowserModule,
